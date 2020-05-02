@@ -5,6 +5,9 @@
 #
 
 # @lc code=start
+from typing import List
+
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         inres = []
@@ -40,6 +43,6 @@ class Solution:
                                         inres = [nums[i],nums[j],-(add2)]
                                         res.append(inres)
         return res
-
+        
 # @lc code=end
 
