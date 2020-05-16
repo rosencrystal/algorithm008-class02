@@ -28,5 +28,6 @@ class Solution:
             num_list[i] = num_list[i - 1] + num_list[i - 2]
 
         return num_list[-1]  
+
 # @lc code=end
 
